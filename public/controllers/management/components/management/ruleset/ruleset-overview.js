@@ -66,7 +66,6 @@ class WzRulesetOverview extends Component {
 
   render() {
     const { section } = this.props.state;
-
     return (
       <EuiPage style={{ background: 'transparent' }}>
         <EuiPanel>
@@ -96,7 +95,7 @@ class WzRulesetOverview extends Component {
               </EuiText>
             </EuiFlexItem>
           </EuiFlexGroup>
-          <WzSearchBarFilter 
+          <WzSearchBarFilter
             filters={this.filters[section]} />
           <EuiFlexGroup>
             <EuiFlexItem>
